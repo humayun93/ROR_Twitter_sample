@@ -11,6 +11,7 @@ Twitter::Application.routes.draw do
   root 'tweets#index'
   get 'mytweets' => 'tweets#mytweets' ,as: :mytweets
   get 'search' => 'tweets#search'
+  
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 

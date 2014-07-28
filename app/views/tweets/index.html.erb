@@ -16,12 +16,13 @@
   No tweets to show
 </div>
 
-<% end %>
+<% else %>
 </div> 
 <div class="box row "> 
 <%= render 'list' , :tweets => @tweets %>
 
 <%= render 'form' , :button_text => "Tweet" %>
+<% end %>
   </div>
 
 

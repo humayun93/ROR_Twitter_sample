@@ -21,3 +21,7 @@
 
 en:
   hello: "Hello world"
+  tweet_success: "Tweet was successfully created."
+  tweet_update_success: "Tweet updated successfully"
+  tweet_delete_success: "Tweet deletd successfully"
+  tweet_delete_failed: "Unknown error occured"

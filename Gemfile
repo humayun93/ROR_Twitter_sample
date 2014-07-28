@@ -62,3 +62,4 @@ gem "paperclip", "~> 4.1"
 gem 'activeadmin', github: 'gregbell/active_admin'
 
 gem 'cancancan', '~> 1.9'
+gem 'acts-as-taggable-on'

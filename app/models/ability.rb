@@ -5,8 +5,8 @@ class Ability
       user ||= User.new # guest user (not logged in)
       can :read , :all
       can :search, :all
-      can [:new ,:create ,:mytweets] , Tweet
-      can [:destroy , :edit  , :show , :update ], Tweet , :user_id => user.id
+      can [:new ,:create ] , Tweet
+      can [:destroy , :edit  , :show , :update ,:mytweets ], Tweet , :user_id => user.id
     # Define abilities for the passed in user here. For example:
     #
     #   user ||= User.new # guest user (not logged in)
